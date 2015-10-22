@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A4166EFB1BD09507004F9376 /* FMDBAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4166EFA1BD09507004F9376 /* FMDBAddViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A44259471BD8D880001384B6 /* UserCoreList.m in Sources */ = {isa = PBXBuildFile; fileRef = A44259441BD8D880001384B6 /* UserCoreList.m */; settings = {ASSET_TAGS = (); }; };
+		A44259481BD8D880001384B6 /* UserCoreList+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A44259461BD8D880001384B6 /* UserCoreList+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
 		A456BC3E1BD1F22B00E7E028 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A456BC3D1BD1F22B00E7E028 /* CoreDataViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A456BC411BD1F23D00E7E028 /* CoreDataAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A456BC401BD1F23D00E7E028 /* CoreDataAddViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A456BC441BD1F48400E7E028 /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A456BC421BD1F48400E7E028 /* User.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
 		A456BC471BD1F49B00E7E028 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A456BC461BD1F49B00E7E028 /* CoreDataManager.m */; settings = {ASSET_TAGS = (); }; };
-		A456BC521BD1F8CA00E7E028 /* UserCoreList+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A456BC4F1BD1F8CA00E7E028 /* UserCoreList+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		A456BC531BD1F8CA00E7E028 /* UserCoreList.m in Sources */ = {isa = PBXBuildFile; fileRef = A456BC511BD1F8CA00E7E028 /* UserCoreList.m */; settings = {ASSET_TAGS = (); }; };
 		A46501DE1BCF44D000492AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A46501DD1BCF44D000492AED /* main.m */; };
 		A46501E11BCF44D000492AED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A46501E01BCF44D000492AED /* AppDelegate.m */; };
 		A46501E41BCF44D000492AED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46501E31BCF44D000492AED /* ViewController.m */; };
@@ -70,6 +70,10 @@
 /* Begin PBXFileReference section */
 		A4166EF91BD09507004F9376 /* FMDBAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBAddViewController.h; sourceTree = "<group>"; };
 		A4166EFA1BD09507004F9376 /* FMDBAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBAddViewController.m; sourceTree = "<group>"; };
+		A44259431BD8D880001384B6 /* UserCoreList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCoreList.h; sourceTree = "<group>"; };
+		A44259441BD8D880001384B6 /* UserCoreList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCoreList.m; sourceTree = "<group>"; };
+		A44259451BD8D880001384B6 /* UserCoreList+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserCoreList+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A44259461BD8D880001384B6 /* UserCoreList+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserCoreList+CoreDataProperties.m"; sourceTree = "<group>"; };
 		A456BC3C1BD1F22B00E7E028 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
 		A456BC3D1BD1F22B00E7E028 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
 		A456BC3F1BD1F23D00E7E028 /* CoreDataAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataAddViewController.h; sourceTree = "<group>"; };
@@ -77,10 +81,6 @@
 		A456BC431BD1F48400E7E028 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
 		A456BC451BD1F49B00E7E028 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
 		A456BC461BD1F49B00E7E028 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
-		A456BC4E1BD1F8CA00E7E028 /* UserCoreList+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UserCoreList+CoreDataProperties.h"; path = "../../UserCoreList+CoreDataProperties.h"; sourceTree = "<group>"; };
-		A456BC4F1BD1F8CA00E7E028 /* UserCoreList+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UserCoreList+CoreDataProperties.m"; path = "../../UserCoreList+CoreDataProperties.m"; sourceTree = "<group>"; };
-		A456BC501BD1F8CA00E7E028 /* UserCoreList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCoreList.h; path = ../../UserCoreList.h; sourceTree = "<group>"; };
-		A456BC511BD1F8CA00E7E028 /* UserCoreList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCoreList.m; path = ../../UserCoreList.m; sourceTree = "<group>"; };
 		A46501D91BCF44D000492AED /* 数据存储.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "数据存储.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46501DD1BCF44D000492AED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A46501DF1BCF44D000492AED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -311,10 +311,10 @@
 		A46502401BCF775800492AED /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A456BC4E1BD1F8CA00E7E028 /* UserCoreList+CoreDataProperties.h */,
-				A456BC4F1BD1F8CA00E7E028 /* UserCoreList+CoreDataProperties.m */,
-				A456BC501BD1F8CA00E7E028 /* UserCoreList.h */,
-				A456BC511BD1F8CA00E7E028 /* UserCoreList.m */,
+				A44259431BD8D880001384B6 /* UserCoreList.h */,
+				A44259441BD8D880001384B6 /* UserCoreList.m */,
+				A44259451BD8D880001384B6 /* UserCoreList+CoreDataProperties.h */,
+				A44259461BD8D880001384B6 /* UserCoreList+CoreDataProperties.m */,
 				A46502411BCF776C00492AED /* User.h */,
 				A46502421BCF776C00492AED /* User.m */,
 			);
@@ -501,13 +501,14 @@
 				A46502661BCFB33200492AED /* FMResultSet.m in Sources */,
 				A46501E11BCF44D000492AED /* AppDelegate.m in Sources */,
 				A465021A1BCF4DD200492AED /* NSUserDefaultViewController.m in Sources */,
+				A44259481BD8D880001384B6 /* UserCoreList+CoreDataProperties.m in Sources */,
 				A465024A1BCF84CB00492AED /* XKLKeyChain.m in Sources */,
 				A46502621BCFB33200492AED /* FMDatabase.m in Sources */,
+				A44259471BD8D880001384B6 /* UserCoreList.m in Sources */,
 				A46502651BCFB33200492AED /* FMDatabaseQueue.m in Sources */,
 				A456BC3E1BD1F22B00E7E028 /* CoreDataViewController.m in Sources */,
 				A46502631BCFB33200492AED /* FMDatabaseAdditions.m in Sources */,
 				A465023E1BCF4EB700492AED /* View+MASAdditions.m in Sources */,
-				A456BC521BD1F8CA00E7E028 /* UserCoreList+CoreDataProperties.m in Sources */,
 				A46502361BCF4EB700492AED /* MASCompositeConstraint.m in Sources */,
 				A46502641BCFB33200492AED /* FMDatabasePool.m in Sources */,
 				A465023A1BCF4EB700492AED /* MASViewAttribute.m in Sources */,
@@ -519,7 +520,6 @@
 				A465023F1BCF4EB700492AED /* ViewController+MASAdditions.m in Sources */,
 				A46502371BCF4EB700492AED /* MASConstraint.m in Sources */,
 				A46502391BCF4EB700492AED /* MASLayoutConstraint.m in Sources */,
-				A456BC531BD1F8CA00E7E028 /* UserCoreList.m in Sources */,
 				A46502461BCF81F000492AED /* KeyChainViewController.m in Sources */,
 				A456BC471BD1F49B00E7E028 /* CoreDataManager.m in Sources */,
 				A46501DE1BCF44D000492AED /* main.m in Sources */,
