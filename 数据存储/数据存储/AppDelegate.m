@@ -28,8 +28,6 @@
     //数据库路径
     AppDelegate *myDelegate = [[UIApplication sharedApplication] delegate];
     myDelegate.userDbPath = [self dataFilePath];
-    
-    
     [self createUserTable];
     
     return YES;
